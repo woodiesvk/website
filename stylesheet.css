@@ -1,0 +1,133 @@
+/* woodiesvk.eu css v2.0 - promo page */
+
+/* fonts */
+@font-face {
+    font-family: Logo;
+    src: url(img/fontastique.ttf);
+}
+/* website */
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000;
+    font-family: "Arial", sans-serif;
+    font-size: 0.8em;
+    color: #fff;
+}
+#container {
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+    width: 600px;
+    position: relative;
+}
+.v-align {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+.main {
+    margin-top: 7em;
+    margin-bottom: 7em;
+    max-width: 100%;
+    min-width: 100%;
+}
+.logo {
+    font-size: 26px;
+    display: block;
+    font-family: "Logo";
+    font-weight: normal;
+    font-style: italic;
+    text-transform: lowercase;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.75);
+    padding: 0.5em 0em;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 0.2em 0.2em 0em 0em;
+    border: 1px #fff solid;
+    color: #fff;
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+}
+.links {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5em 2em;
+    font-size: 0.8em;
+    background-color: #fff;
+    border: 1px #fff solid;
+    border-radius: 0em 0em 0.3em 0.3em;
+    color: #000;
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    margin-bottom: 3em;
+}
+.links a {
+    color: #000;
+}
+iframe {
+    display: block;
+    width: 600px;
+    height: 360px;
+    border-radius: 0.3em;
+    border: 1px #fff solid;
+    /*padding-bottom: 1em;*/
+    text-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    /*padding: 2em;*/
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+}
+.heading {
+    font-size: 1em;
+    display: block;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.75);
+    padding: 0.4em 2em;
+    text-transform: uppercase;
+    margin-top: 3em;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 0.2em 0.2em 0em 0em;
+    border: 1px #fff solid;
+    color: #fff;
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+}
+.text {
+    text-align: left;
+    padding: 1.2em 2em;
+    font-size: 1em;
+    background-color: #fff;
+    border: 1px #fff solid;
+    border-top: 0px;
+    border-radius: 0em 0em 0.3em 0.3em;
+    color: #000;
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.75);
+}
+.text a {
+    color: #000;
+}
+.banner {
+    height: 100px;
+    padding: 0px !important;
+}
+table {
+    font-weight: 100 !important;
+}
