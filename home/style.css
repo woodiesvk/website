@@ -72,7 +72,7 @@ nav a {
     background-position: center;
 }
 
-.post article div {
+.post .img div {
     position: relative;
     border-top: 1px solid #000;
     top: 11.5em;
@@ -86,18 +86,8 @@ nav a {
     transition: 0.3s all ease-in-out;
 }
 
-.post article div:hover {
+.post .img div:hover {
     transform: translate(0, -142px);
-    transition: 0.3s all ease-in-out;
-}
-
-.post article div div {
-    position: relative;
-    top: 9em;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #fff;
-    text-align: center;
-    padding-top: 3px;
     transition: 0.3s all ease-in-out;
 }
 
@@ -111,8 +101,16 @@ nav a {
 }
 
 .post .text div {
-    transform: translate(0, -142px);
-    transition: 0.3s all ease-in-out;
+    position: relative;
+    border-top: 1px solid #000;
+    top: -5px;
+    height: 100%;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+    padding: 5px;
 }
 
 /* FONT FACES*/
