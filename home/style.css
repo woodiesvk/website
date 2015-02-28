@@ -1,0 +1,184 @@
+/* WoodieSvK.eu CSS - Repo: https://github.com/woodiesvk/woodiesvk.github.io */
+/* Design and Code by WoodieSvK :3 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER SEKCTION */
+
+header {
+    border-bottom: 1px solid #000;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.header {
+    position: relative;
+    line-height: 2.2em;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    cursor: default;
+}
+
+.left {
+    display: inline-block;
+    font-family: "LOGO";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+    padding: 0px 10px;
+}
+
+.right {
+    display: inline-block;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: "SGUIitalic";
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+/* POSTS SECTION */
+
+.post {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+.post article {
+    width: 216px;
+    height: 170px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-family: "SGUI";
+    font-size: 14px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.post article div {
+    position: relative;
+    border-top: 1px solid #000;
+    top: 11.5em;
+    height: 100%;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+    padding: 5px;
+    transition: 0.3s all ease-in-out;
+}
+
+.post article div:hover {
+    transform: translate(0, -142px);
+    transition: 0.3s all ease-in-out;
+}
+
+.post article div div {
+    position: relative;
+    top: 9em;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+    transition: 0.3s all ease-in-out;
+}
+
+.post article div a {
+    color: #fff;
+}
+
+.post article div b {
+    font-size: 14px;
+    font-family: "SGUIbold";
+}
+
+.post .text div {
+    transform: translate(0, -142px);
+    transition: 0.3s all ease-in-out;
+}
+
+/* FONT FACES*/
+
+@font-face {
+    font-family: SGUI;
+    src: url(fonts/segoeui.ttf);
+}
+@font-face {
+    font-family: SGUIitalic;
+    src: url(fonts/segoeuii.ttf);
+}
+@font-face {
+    font-family: SGUIbold;
+    src: url(fonts/segoeuib.ttf);
+}
+@font-face {
+    font-family: SGUImedium;
+    src: url(fonts/seguisb.ttf);
+}
+@font-face {
+    font-family: SGUIlight;
+    src: url(fonts/segoeuil.ttf);
+}
+@font-face {
+    font-family: SGUIbolditalic;
+    src: url(fonts/segoeuiz.ttf);
+}
+@font-face {
+    font-family: LOGO;
+    src: url(fonts/fontastique.ttf);
+}
+
+/* MEDIA QUERIES */
+
+@media all
+and (min-width : 500px) 
+and (max-width : 710px)
+{
+    .post{
+        width: 470px;
+    }
+        
+}
+
+@media all
+and (min-width : 1px) 
+and (max-width : 500px)
+{
+    .post{
+        width: 230px;
+    }
+        
+}
+
+@media all
+and (min-width : 1px) 
+and (max-width : 370px)
+{
+    .left {
+        display: none;
+    }
+    .right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+        
+}
