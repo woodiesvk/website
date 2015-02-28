@@ -85,11 +85,14 @@ nav a {
     padding-top: 3px;
     padding: 5px;
     transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
 }
 
 .post .img div:hover {
     transform: translate(0, -142px);
+    -webkit-transform: translate(0, -142px);
     transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
 }
 
 .post article div a {
