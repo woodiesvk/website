@@ -55,6 +55,7 @@ nav a {
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
+    padding-top: 3em;
 }
 
 .post article {
