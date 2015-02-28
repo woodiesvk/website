@@ -59,9 +59,9 @@ nav a {
 }
 
 .post article {
-    width: 216px;
+    width: 214px;
     height: 170px;
-    margin: 5px;
+    margin: 4px;
     display: inline-block;
     border-radius: 10px;
     border: 1px solid #000;
