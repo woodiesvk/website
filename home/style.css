@@ -83,6 +83,8 @@ nav .fb:hover {
     max-width: 700px;
     margin: 0 auto;
     padding-top: 45px;
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
 }
 
 .post article {
@@ -147,6 +149,18 @@ nav .fb:hover {
     padding-top: 3px;
     padding: 5px;
     border-radius: 17px;
+}
+
+/* KEYFRAMES */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /* FONT FACES*/
