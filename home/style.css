@@ -87,8 +87,20 @@ nav .fb:hover {
     padding-top: 45px;
 }
 
+.post iframe {
+    width: 678px;
+    height: 430px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+    margin: 4px;
+    background-color: #1b1b1b;
+    vertical-align: bottom;
+}
+
 .post article {
-    width: 214px;
+    width: 220px;
     height: 170px;
     margin: 4px;
     display: inline-block;
@@ -100,6 +112,16 @@ nav .fb:hover {
     background-size: cover;
     background-position: center;
     vertical-align: bottom;
+}
+
+.post span {
+    font-family: "SGUI";
+    font-size: 14px;
+}
+
+.post span b {
+    font-family: "SGUIbold";
+    font-size: 14px;
 }
 
 .post .img div {
@@ -163,6 +185,12 @@ nav .fb:hover {
     to   { opacity: 1; }
 }
 
+/* HEADINGS */
+
+h1 {
+    font-family: "SGUIbolditalic";
+}
+
 /* FONT FACES*/
 
 @font-face {
@@ -203,7 +231,10 @@ and (max-width : 710px)
     .post{
         width: 470px;
     }
-        
+    .post iframe {
+        width: 444px;
+        height: 280px;
+    }
 }
 
 @media all
@@ -212,6 +243,13 @@ and (max-width : 500px)
 {
     .post{
         width: 230px;
+    }
+    .post iframe {
+        width: 210px;
+        height: 160px;
+    }
+    nav a span {
+        display: none;
     }
         
 }
