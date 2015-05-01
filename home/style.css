@@ -18,6 +18,9 @@ header {
     width: 100%;
     background-color: #fff;
     z-index: 9999;
+    background-image: url(img/header-blur-bg.png);
+    background-repeat: repeat;
+    background-position: center;
 }
 
 .header {
@@ -171,6 +174,15 @@ nav .fb:hover {
     padding-top: 3px;
     padding: 5px;
     border-radius: 17px;
+}
+
+.post .highlight {
+    width: 688px;
+}
+
+.post .highlight div {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /* KEYFRAMES */
