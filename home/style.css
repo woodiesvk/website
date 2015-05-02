@@ -243,6 +243,14 @@ and (max-width : 710px)
     .post{
         width: 470px;
     }
+    .post .highlight {
+        width: 454px;
+    }
+    .post .highlight div {
+        width: 454px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .post iframe {
         width: 444px;
         height: 280px;
@@ -255,6 +263,20 @@ and (max-width : 500px)
 {
     .post{
         width: 230px;
+    }
+    .post .highlight {
+        width: 220px;
+        height: 270px;
+    }
+    .post .highlight div {
+        top: 18em;
+        width: 220px;
+        height: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .post .highlight div:hover {
+        transform: translate(0, -220px);
     }
     .post iframe {
         width: 210px;
